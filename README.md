@@ -2,7 +2,7 @@
 
 PDFoundry2 its just a fork of PDFoundry working with Foundry V10 Update, all credits goes to Andrew Cuccinello.
 
-If you have a suggestion you are welcome to open a pull request and made suggestions.
+If you have a suggestion you are welcome to open a pull request and collaborate.
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/fcsouza/PDFoundry2)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fcsouza/PDFoundry2/Release%20Module)
