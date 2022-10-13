@@ -2,7 +2,7 @@
     "name": "pdfoundry2",
     "title": "PDFoundry2",
     "description": "PDFoundry2 it's a fork from original PDFoundry to use form fillable sheets",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "authors": [
         {
           "name": "Fabricio Cavalcante",
@@ -39,6 +39,6 @@
     "compatibleCoreVersion": "10",
     "minimumCoreVersion": "10",
     "manifest": "https://raw.githubusercontent.com/fcsouza/PDFoundry2/master/module.json",
-    "download": "https://github.com/fcsouza/PDFoundry2/releases/download/v1.0.2/pdfoundry-v1.0.2.zip",
+    "download": "https://github.com/fcsouza/PDFoundry2/releases/download/v1.0.3/pdfoundry-v1.0.3.zip",
     "url": "https://github.com/fcsouza/PDFoundry2"
 }
