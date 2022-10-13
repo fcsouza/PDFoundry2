@@ -1,6 +1,6 @@
 # PDFoundry2
 
-PDFoundry2 its just a fork of PDFoundry working with Foundry V10 Update, all credits goes to Andrew Cuccinello.
+PDFoundry2 its just a fork of PDFoundry working with Foundry V10 Update, all credits goes to [Andrew Cuccinello.](https://github.com/lozalojo)
 
 If you have a suggestion you are welcome to open a pull request and collaborate.
 
