@@ -16,7 +16,7 @@
         ]
     },
     "dist": {
-        "name": "pf2e-toolbox",
+        "name": "pdfoundry2",
         "bundle": "bundle.js"
     }
 }

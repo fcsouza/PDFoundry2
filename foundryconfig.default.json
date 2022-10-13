@@ -16,7 +16,7 @@
         ]
     },
     "dist": {
-        "name": "pdfoundry",
+        "name": "pdfoundry2",
         "bundle": "bundle.js"
     }
 }
