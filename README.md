@@ -1,21 +1,19 @@
-# PDFoundry has been depracated
-PDFoundry has been deprecated as Foundry VTT now includes builtin PDF support, and there are only a few cases where PDFoundry's extra features exceed Foundry's. It may return one day to provide the missing features, but will require enough work to do so that it is currently not viable without a more complete re-write.
+# PDFoundry2
 
-So long, and thanks for all the fish!
+PDFoundry2 its just a fork of PDFoundry working with Foundry V10 Update, all credits goes to Andrew Cuccinello.
 
-# PDFoundry
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/DJPhoenix719/PDFoundry)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Djphoenix719/PDFoundry/Release%20Module)
-[![GitHub issues](https://img.shields.io/github/issues/Djphoenix719/PDFoundry)](https://github.com/Djphoenix719/PDFoundry/issues)
-[![GitHub license](https://img.shields.io/github/license/Djphoenix719/PDFoundry)](https://github.com/Djphoenix719/PDFoundry/blob/master/LICENSE)
-[![GitHub pull requests](https://img.shields.io/badge/pull%20requests-welcome-green)](https://github.com/Djphoenix719/PDFoundry/compare)
+If you have a suggestion you are welcome to open a pull request and made suggestions.
 
-![GitHub All Releases](https://img.shields.io/github/downloads/Djphoenix719/PDFoundry/total)
-![GitHub Releases](https://img.shields.io/github/downloads/Djphoenix719/PDFoundry/latest/total)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/fcsouza/PDFoundry2)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/fcsouza/PDFoundry2/Release%20Module)
+[![GitHub issues](https://img.shields.io/github/issues/fcsouza/PDFoundry2)](https://github.com/fcsouza/PDFoundry2/issues)
+[![GitHub license](https://img.shields.io/github/license/fcsouza/PDFoundry2)](https://github.com/fcsouza/PDFoundry2/blob/master/LICENSE)
+[![GitHub pull requests](https://img.shields.io/badge/pull%20requests-welcome-green)](https://github.com/fcsouza/PDFoundry2/compare)
 
-PDFoundry (pronounced *Pee-Dee-Foundry*/*pi di ˈfaʊndri*) is a *fully featured* PDF viewer for FoundryVTT!  PDFoundry supports a full suite of features for viewing PDFs right in Foundry VTT. Fillable forms, bookmarks, page links in journals and LOTS more. You can even use a form fillable PDF character sheet for an actor!
+![GitHub All Releases](https://img.shields.io/github/downloads/fcsouza/PDFoundry2/total)
+![GitHub Releases](https://img.shields.io/github/downloads/fcsouza/PDFoundry2/latest/total)
 
-[Please consider supporting me on Ko-Fi](https://ko-fi.com/djsmods)
+PDFoundry2 (pronounced *Pee-Dee-Foundry2*/*pi di ˈfaʊndri*) is a *fully featured* PDF viewer for FoundryVTT!  PDFoundry2 supports a full suite of features for viewing PDFs right in Foundry VTT. Fillable forms, bookmarks, page links in journals and LOTS more. You can even use a form fillable PDF character sheet for an actor!
 
 #### Thanks to
 Spanish localization: [José E. Lozano (lozalojo)](https://github.com/lozalojo)
@@ -26,16 +24,16 @@ French localization: [Baktov](https://github.com/Baktov)
 [Tutorials and resources created by users of PDFoundry can be found here](https://github.com/Djphoenix719/PDFoundry/wiki/Community-Resources)
 
 ## Setup
-PDFoundry is easily installable - find it in the modules list inside Foundry VTT. Alternatively, you can use the manifest link below.
+PDFoundry2 is easily installable - find it in the modules list inside Foundry VTT. Alternatively, you can use the manifest link below.
 
 ### Manifest
-> https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json
+> https://raw.githubusercontent.com/fcsouza/PDFoundry2/master/module.json
 
 ## System Developers
-I highly recommend you do not bundle PDFoundry - if you do however, the module version will disable itself and display a warning to the user. Instead, you can see the [documentation](https://djphoenix719.github.io/PDFoundry/index.html) for an example of checking for the presence of PDFoundry, and enabling additional support if it is found.
+I highly recommend you do not bundle PDFoundry - if you do however, the module version will disable itself and display a warning to the user. Instead, you can see the [documentation](https://fcsouza.github.io/PDFoundry2/index.html) for an example of checking for the presence of PDFoundry2, and enabling additional support if it is found.
 
-### Building PDFoundry
-If you wish to build PDFoundry yourself - most commonly because you want to contribute - you can do the following.
+### Building PDFoundry2
+If you wish to build PDFoundry2 yourself - most commonly because you want to contribute - you can do the following.
 
 1. Clone the repository anywhere
 2. Copy `foundryconfig.example.json` and rename it `foundryconfig.json`. Edit the dataPath to your data folder.
@@ -45,7 +43,4 @@ If you wish to build PDFoundry yourself - most commonly because you want to cont
 
 ### API Examples
 
-See the [documentation](https://djphoenix719.github.io/PDFoundry/index.html) for details and examples.
-
-## Roadmap
-See the [development board](https://github.com/Djphoenix719/PDFoundry/projects/1#column-9772243) for a list of planned features, roughly in the order I plan to get to them.
+See the [documentation](https://fcsouza.github.io/PDFoundry2/index.html) for details and examples.

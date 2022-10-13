@@ -33,7 +33,7 @@
         "vinyl-source-stream": "^2.0.0",
         "watchify": "^4.0.0"
     },
-    "repository": "https://github.com/Djphoenix719/PDFoundry",
-    "license": "https://github.com/Djphoenix719/PDFoundry/LICENSE",
+    "repository": "https://github.com/fcsouza/PDFoundry2",
+    "license": "https://github.com/fcsouza/PDFoundry2/LICENSE",
     "version": "v2.0.0"
 }
