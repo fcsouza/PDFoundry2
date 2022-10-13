@@ -43,7 +43,7 @@ jobs:
         run: gulp build
 
       - name: Zip project # This would actually build your project, using zip for an example artifact
-        run: 7z a -tzip pdfoundry-${{ steps.get_version.outputs.VERSION }}.zip pdfoundry
+        run: 7z a -tzip pdfoundry-${{ steps.get_version.outputs.VERSION }}.zip pdfoundry2
 
       - name: Create Release
         id: create_release
