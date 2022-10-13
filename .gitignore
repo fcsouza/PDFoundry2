@@ -4,3 +4,4 @@ node_modules/*
 module/**/*.js
 books/*
 foundryconfig.json
+.vscode/snipsnap.code-snippets

@@ -1,9 +1,15 @@
 {
     "name": "pdfoundry2",
     "title": "PDFoundry2",
-    "description": "A fully featured PDF Viewer Module. Includes journal support, form fillable support, and more.",
+    "description": "PDFoundry2 it's a fork from original PDFoundry to use form fillable sheets",
     "version": "1.0.2",
-    "author": "Fabricio Cavalcante [Fabricio#0730]",
+    "authors": [
+        {
+          "name": "Fabricio Cavalcante",
+          "url": "https://github.com/fcsouza",
+          "flags": {}
+        }
+      ],
     "packs": [],
     "languages": [
         {

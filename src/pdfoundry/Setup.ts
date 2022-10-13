@@ -26,7 +26,6 @@ import { PDFType } from './common/types/PDFType';
 import { PDFConfig } from './app/PDFConfig';
 import FixMissingTypes from './commands/FixMissingTypes';
 import PurgeCache from './commands/PurgeCache';
-import { legacyMigrationRequired, migrateLegacy } from './migrate/MigrateLegacy';
 import TinyMCEPlugin from './enricher/TinyMCEPlugin';
 
 /**
@@ -122,12 +121,6 @@ export default class Setup {
             // Initialize the settings
             Settings.initialize();
             await PDFCache.initialize();
-
-            if (legacyMigrationRequired()) {
-                migrateLegacy().then(() => {
-                    Settings.set(Settings.SETTINGS_KEY.DATA_VERSION, 'v0.6.0');
-                });
-            }
 
             // PDFoundry is ready
             // Setup.userLogin();
