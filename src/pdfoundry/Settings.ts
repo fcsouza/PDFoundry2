@@ -20,7 +20,7 @@ import Api from './Api';
  * @internal
  */
 export default class Settings {
-    public static readonly MODULE_NAME: string = 'pdfoundry2';
+    public static readonly MODULE_NAME: string = 'pdf-character-sheet';
 
     public static get PATH_MODULE() {
         return `modules/${Settings.MODULE_NAME}`;

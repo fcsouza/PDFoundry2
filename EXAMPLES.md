@@ -1,8 +1,8 @@
-# PDFoundry2
+# PDF Character Sheet
 
 ### This page is for system developers only!
 
-PDFoundry2 has a pretty simple API. The primary use case you may wish to implement in a system is to implement 'open source page' link on item sheets, so you can link your compendium up to the source locations. Doing something like this is incredibly simple. Bind an event handler to the item sheet render hook.
+PDF Character Sheet has a pretty simple API. The primary use case you may wish to implement in a system is to implement 'open source page' link on item sheets, so you can link your compendium up to the source locations. Doing something like this is incredibly simple. Bind an event handler to the item sheet render hook.
 
 Assuming you have HTML on your sheet like this.
 

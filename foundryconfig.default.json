@@ -16,7 +16,7 @@
         ]
     },
     "dist": {
-        "name": "pdfoundry2",
+        "name": "pdf-character-sheet",
         "bundle": "bundle.js"
     }
 }

@@ -23,7 +23,7 @@ export const BUTTON_GITHUB = {
     class: 'pdf-sheet-github',
     icon: 'fas fa-external-link-alt',
     label: 'PDFoundry',
-    onclick: () => window.open('https://github.com/Djphoenix719/PDFoundry', '_blank'),
+    onclick: () => window.open('https://github.com/fcsouza/pdf-character-sheet', '_blank'),
 };
 
 /**
@@ -45,5 +45,5 @@ export const BUTTON_KOFI = {
     class: 'pdf-sheet-kofi',
     icon: 'fas fa-coffee',
     label: '',
-    onclick: () => window.open('https://ko-fi.com/djsmods', '_blank'),
+    onclick: () => window.open('https://ko-fi.com/', '_blank'),
 };
