@@ -218,7 +218,7 @@ export default class FillableViewer extends BaseViewer {
 
     protected onPageRendered(event) {
         const POLL_INTERVAL = 5;
-        const MAX_POLL_TIME = 250;
+        const MAX_POLL_TIME = 1000;
         const container = $(event.source.div);
 
         new Promise<any>((resolve, reject) => {
